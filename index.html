@@ -1,0 +1,627 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <script src="highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <link rel="stylesheet" href="styles/ir_black.css" type="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+  <title>MELPA</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <a href="http://github.com/milkypostman/melpa"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub"></a>
+<div id="container">
+<div id="header">
+<h1 class="title">MELPA</h1>
+</div>
+<p>[ <a href="#current-list-of-packages">Packages</a> ] [ <a href="#installing">Installing</a> ] [ <a href="#known-issues">Known Issues</a> ] [ <a href="#updating-packages">Updating Packages</a> ] [ <a href="#development">Development</a> ]</p>
+<p><em>MELPA</em> or <em>Milkypostman’s ELPA</em> or <em>Milkypostman’s Experimental Lisp Package Repository</em> if you’re not into the whole brevity thing.</p>
+<blockquote>
+<p>a repository for development versions of Emacs packages (hot from the repo).</p>
+</blockquote>
+<p><strong>Last Update:</strong> <em>2012.04.06 22:25</em></p>
+<h2 id="current-list-of-packages">Current List of Packages</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Package</th>
+<th align="left">Version</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">ac-dabbrev</td>
+<td align="left">20091116</td>
+<td align="left">auto-complete el source for dabbrev</td>
+</tr>
+<tr class="even">
+<td align="left">ack-and-a-half</td>
+<td align="left">20120216</td>
+<td align="left">Yet another front-end for ack</td>
+</tr>
+<tr class="odd">
+<td align="left">ansi</td>
+<td align="left">20110112</td>
+<td align="left">Turn string into ansi strings</td>
+</tr>
+<tr class="even">
+<td align="left">auto-complete</td>
+<td align="left">20120328</td>
+<td align="left">Auto Completion for GNU Emacs</td>
+</tr>
+<tr class="odd">
+<td align="left">bm</td>
+<td align="left">20120203</td>
+<td align="left">No description available</td>
+</tr>
+<tr class="even">
+<td align="left">bookmark+</td>
+<td align="left">20120406</td>
+<td align="left">Bookmark+ extensions to standard library bookmark el</td>
+</tr>
+<tr class="odd">
+<td align="left">browse-kill-ring</td>
+<td align="left">20110304</td>
+<td align="left">interactively insert items from kill-ring - - coding utf-8 - -</td>
+</tr>
+<tr class="even">
+<td align="left">c-eldoc</td>
+<td align="left">20110516</td>
+<td align="left">helpful description of the arguments to C functions</td>
+</tr>
+<tr class="odd">
+<td align="left">citrus-mode</td>
+<td align="left">20120403</td>
+<td align="left">Major mode for editing Citrus files</td>
+</tr>
+<tr class="even">
+<td align="left">clojure-mode</td>
+<td align="left">20120329</td>
+<td align="left">Major mode for Clojure code</td>
+</tr>
+<tr class="odd">
+<td align="left">clojure-test-mode</td>
+<td align="left">20120329</td>
+<td align="left">Minor mode for Clojure tests</td>
+</tr>
+<tr class="even">
+<td align="left">clojurescript-mode</td>
+<td align="left">20120329</td>
+<td align="left">Major mode for ClojureScript code</td>
+</tr>
+<tr class="odd">
+<td align="left">coffee-mode</td>
+<td align="left">20120308</td>
+<td align="left">Major mode to edit CoffeeScript files in Emacs</td>
+</tr>
+<tr class="even">
+<td align="left">color-theme-sanityinc-solarized</td>
+<td align="left">20120322</td>
+<td align="left">A version of Ethan Schoonover s Solarized themes</td>
+</tr>
+<tr class="odd">
+<td align="left">color-theme-sanityinc-tomorrow</td>
+<td align="left">20120322</td>
+<td align="left">A version of Chris Kempson s various Tomorrow themes</td>
+</tr>
+<tr class="even">
+<td align="left">cperl-mode</td>
+<td align="left">20110624</td>
+<td align="left">Perl code editing commands for Emacs</td>
+</tr>
+<tr class="odd">
+<td align="left">csv-mode</td>
+<td align="left">20091203</td>
+<td align="left">major mode for editing comma-separated value files</td>
+</tr>
+<tr class="even">
+<td align="left">csv-nav</td>
+<td align="left">20091121</td>
+<td align="left">navigate and edit CSV files</td>
+</tr>
+<tr class="odd">
+<td align="left">darcsum</td>
+<td align="left">20120115</td>
+<td align="left">a pcl-cvs like interface for managing darcs patches</td>
+</tr>
+<tr class="even">
+<td align="left">deft</td>
+<td align="left">20120307</td>
+<td align="left">quickly browse filter and edit plain text notes</td>
+</tr>
+<tr class="odd">
+<td align="left">delim-kill</td>
+<td align="left">20100517</td>
+<td align="left">Kill text between delimiters</td>
+</tr>
+<tr class="even">
+<td align="left">dired+</td>
+<td align="left">20120405</td>
+<td align="left">Extensions to Dired</td>
+</tr>
+<tr class="odd">
+<td align="left">drag-stuff</td>
+<td align="left">20120403</td>
+<td align="left">Drag stuff lines words region etc around</td>
+</tr>
+<tr class="even">
+<td align="left">elisp-slime-nav</td>
+<td align="left">20111111</td>
+<td align="left">Make M- and M- work in elisp like they do in slime</td>
+</tr>
+<tr class="odd">
+<td align="left">enclose</td>
+<td align="left">20120406</td>
+<td align="left">Enclose cursor within punctuation pairs</td>
+</tr>
+<tr class="even">
+<td align="left">ess</td>
+<td align="left">20120324</td>
+<td align="left">No description available</td>
+</tr>
+<tr class="odd">
+<td align="left">evil</td>
+<td align="left">20120404</td>
+<td align="left">Extensible Vi layer for Emacs</td>
+</tr>
+<tr class="even">
+<td align="left">evil-leader</td>
+<td align="left">20111001</td>
+<td align="left">No description available</td>
+</tr>
+<tr class="odd">
+<td align="left">evil-numbers</td>
+<td align="left">20111001</td>
+<td align="left">increment decrement numbers like in vim</td>
+</tr>
+<tr class="even">
+<td align="left">evil-surround</td>
+<td align="left">20120327</td>
+<td align="left">emulate surround vim from Vim</td>
+</tr>
+<tr class="odd">
+<td align="left">expand-region</td>
+<td align="left">20120328</td>
+<td align="left">Increase selected region by semantic units</td>
+</tr>
+<tr class="even">
+<td align="left">find-file-in-project</td>
+<td align="left">20110904</td>
+<td align="left">Find files in a project quickly</td>
+</tr>
+<tr class="odd">
+<td align="left">findr</td>
+<td align="left">20120130</td>
+<td align="left">Breadth-first file-finding facility for X Emacs</td>
+</tr>
+<tr class="even">
+<td align="left">flymake-cursor</td>
+<td align="left">20120307</td>
+<td align="left">displays flymake error msg in minibuffer after delay</td>
+</tr>
+<tr class="odd">
+<td align="left">flymake-perlcritic</td>
+<td align="left">20120328</td>
+<td align="left">Flymake handler for Perl to invoke Perl Critic</td>
+</tr>
+<tr class="even">
+<td align="left">full-ack</td>
+<td align="left">20120401</td>
+<td align="left">a front-end for ack</td>
+</tr>
+<tr class="odd">
+<td align="left">gist</td>
+<td align="left">20120406</td>
+<td align="left">Emacs integration for gist github com</td>
+</tr>
+<tr class="even">
+<td align="left">git-blame</td>
+<td align="left">20120129</td>
+<td align="left">Minor mode for incremental blame for Git - - coding utf-8 - -</td>
+</tr>
+<tr class="odd">
+<td align="left">google-maps</td>
+<td align="left">20111110</td>
+<td align="left">Access Google Maps from Emacs</td>
+</tr>
+<tr class="even">
+<td align="left">haml-mode</td>
+<td align="left">20120224</td>
+<td align="left">Major mode for editing Haml files</td>
+</tr>
+<tr class="odd">
+<td align="left">haskell-mode</td>
+<td align="left">20120405</td>
+<td align="left">A Haskell editing mode - -coding iso-8859-1 - -</td>
+</tr>
+<tr class="even">
+<td align="left">helm</td>
+<td align="left">20120406</td>
+<td align="left">No description available</td>
+</tr>
+<tr class="odd">
+<td align="left">helm-projectile</td>
+<td align="left">20120406</td>
+<td align="left">Helm integration for Projectile</td>
+</tr>
+<tr class="even">
+<td align="left">hl-sentence</td>
+<td align="left">20111203</td>
+<td align="left">highlight a sentence based on customizable face</td>
+</tr>
+<tr class="odd">
+<td align="left">html-script-src</td>
+<td align="left">20120403</td>
+<td align="left">Insert script src for popular JavaScript libraries</td>
+</tr>
+<tr class="even">
+<td align="left">icicles</td>
+<td align="left">20120406</td>
+<td align="left">Minibuffer input completion and cycling</td>
+</tr>
+<tr class="odd">
+<td align="left">idle-highlight-mode</td>
+<td align="left">20110817</td>
+<td align="left">highlight the word the point is on</td>
+</tr>
+<tr class="even">
+<td align="left">ido-ubiquitous</td>
+<td align="left">20120124</td>
+<td align="left">Use ido nearly everywhere</td>
+</tr>
+<tr class="odd">
+<td align="left">inf-ruby</td>
+<td align="left">20120403</td>
+<td align="left">Run a ruby process in a buffer</td>
+</tr>
+<tr class="even">
+<td align="left">inflections</td>
+<td align="left">20120130</td>
+<td align="left">convert english words between singular and plural</td>
+</tr>
+<tr class="odd">
+<td align="left">ir_black-theme</td>
+<td align="left">20120313</td>
+<td align="left">No description available</td>
+</tr>
+<tr class="even">
+<td align="left">jaunte</td>
+<td align="left">20120212</td>
+<td align="left">No description available</td>
+</tr>
+<tr class="odd">
+<td align="left">js2-mode</td>
+<td align="left">20120307</td>
+<td align="left">an improved JavaScript editing mode</td>
+</tr>
+<tr class="even">
+<td align="left">js3</td>
+<td align="left">20120329</td>
+<td align="left">JavaScript scanner</td>
+</tr>
+<tr class="odd">
+<td align="left">jump</td>
+<td align="left">20120130</td>
+<td align="left">build functions which contextually jump between files</td>
+</tr>
+<tr class="even">
+<td align="left">magit</td>
+<td align="left">20120402</td>
+<td align="left">Control Git from Emacs</td>
+</tr>
+<tr class="odd">
+<td align="left">magithub</td>
+<td align="left">20120209</td>
+<td align="left">Magit extensions for using GitHub</td>
+</tr>
+<tr class="even">
+<td align="left">markdown-mode</td>
+<td align="left">20120225</td>
+<td align="left">Emacs Major mode for Markdown-formatted text files</td>
+</tr>
+<tr class="odd">
+<td align="left">markdown-mode+</td>
+<td align="left">20120219</td>
+<td align="left">extra functions for markdown-mode</td>
+</tr>
+<tr class="even">
+<td align="left">melpa</td>
+<td align="left">20120406</td>
+<td align="left">special handling for the MELPA repository</td>
+</tr>
+<tr class="odd">
+<td align="left">mmm-mode</td>
+<td align="left">20120114</td>
+<td align="left">Allow Multiple Major Modes in a buffer</td>
+</tr>
+<tr class="even">
+<td align="left">molokai-theme</td>
+<td align="left">20120313</td>
+<td align="left">No description available</td>
+</tr>
+<tr class="odd">
+<td align="left">multi-term</td>
+<td align="left">20110326</td>
+<td align="left">Managing multiple terminal buffers in Emacs</td>
+</tr>
+<tr class="even">
+<td align="left">multi-web-mode</td>
+<td align="left">20110821</td>
+<td align="left">multiple major mode support for web editing</td>
+</tr>
+<tr class="odd">
+<td align="left">org-fstree</td>
+<td align="left">20090904</td>
+<td align="left">include a filesystem subtree into an org file</td>
+</tr>
+<tr class="even">
+<td align="left">org-toodledo</td>
+<td align="left">20120314</td>
+<td align="left">Toodledo integration for Emacs Org mode</td>
+</tr>
+<tr class="odd">
+<td align="left">package-spec</td>
+<td align="left">20120403</td>
+<td align="left">Specify package el packages to use in a package spec</td>
+</tr>
+<tr class="even">
+<td align="left">paredit</td>
+<td align="left">20110508</td>
+<td align="left">minor mode for editing parentheses - - Mode Emacs-Lisp - -</td>
+</tr>
+<tr class="odd">
+<td align="left">pastels-on-dark-theme</td>
+<td align="left">20120304</td>
+<td align="left">Pastels on Dark theme for Emacs 24</td>
+</tr>
+<tr class="even">
+<td align="left">pkgbuild-mode</td>
+<td align="left">20120214</td>
+<td align="left">Interface to the ArchLinux package manager</td>
+</tr>
+<tr class="odd">
+<td align="left">popup</td>
+<td align="left">20120331</td>
+<td align="left">Visual Popup User Interface</td>
+</tr>
+<tr class="even">
+<td align="left">pretty-mode</td>
+<td align="left">20100804</td>
+<td align="left">redisplay parts of the buffer as pretty symbols</td>
+</tr>
+<tr class="odd">
+<td align="left">projectile</td>
+<td align="left">20120406</td>
+<td align="left">Manage and navigate projects in Emacs easily</td>
+</tr>
+<tr class="even">
+<td align="left">python</td>
+<td align="left">20120318</td>
+<td align="left">Python s flying circus support for Emacs</td>
+</tr>
+<tr class="odd">
+<td align="left">rainbow-delimiters</td>
+<td align="left">20111125</td>
+<td align="left">Highlight nested parens brackets braces a different color at each depth</td>
+</tr>
+<tr class="even">
+<td align="left">rinari</td>
+<td align="left">20120330</td>
+<td align="left">Rinari Is Not A Rails IDE</td>
+</tr>
+<tr class="odd">
+<td align="left">ruby-compilation</td>
+<td align="left">20120330</td>
+<td align="left">run a ruby process in a compilation buffer</td>
+</tr>
+<tr class="even">
+<td align="left">ruby-end</td>
+<td align="left">20120403</td>
+<td align="left">Automatic insertion of end blocks for Ruby</td>
+</tr>
+<tr class="odd">
+<td align="left">ruby-mode</td>
+<td align="left">20120122</td>
+<td align="left">Major mode for editing Ruby files</td>
+</tr>
+<tr class="even">
+<td align="left">rvm</td>
+<td align="left">20120201</td>
+<td align="left">Emacs integration for rvm</td>
+</tr>
+<tr class="odd">
+<td align="left">sass-mode</td>
+<td align="left">20120224</td>
+<td align="left">Major mode for editing Sass files</td>
+</tr>
+<tr class="even">
+<td align="left">scss-mode</td>
+<td align="left">20110903</td>
+<td align="left">Major mode for editing SCSS files</td>
+</tr>
+<tr class="odd">
+<td align="left">slime</td>
+<td align="left">20120406</td>
+<td align="left">Superior Lisp Interaction Mode for Emacs</td>
+</tr>
+<tr class="even">
+<td align="left">slime-ritz</td>
+<td align="left">20120405</td>
+<td align="left">slime extensions for ritz</td>
+</tr>
+<tr class="odd">
+<td align="left">smart-tab</td>
+<td align="left">20120115</td>
+<td align="left">Intelligent tab completion and indentation</td>
+</tr>
+<tr class="even">
+<td align="left">smex</td>
+<td align="left">20120301</td>
+<td align="left">M-x interface with Ido-style fuzzy matching</td>
+</tr>
+<tr class="odd">
+<td align="left">solarized-theme</td>
+<td align="left">20120320</td>
+<td align="left">The Solarized color theme ported to Emacs</td>
+</tr>
+<tr class="even">
+<td align="left">starter-kit</td>
+<td align="left">20120316</td>
+<td align="left">Saner defaults and goodies</td>
+</tr>
+<tr class="odd">
+<td align="left">starter-kit-bindings</td>
+<td align="left">20120316</td>
+<td align="left">Saner defaults and goodies bindings</td>
+</tr>
+<tr class="even">
+<td align="left">starter-kit-eshell</td>
+<td align="left">20120316</td>
+<td align="left">Saner defaults and goodies eshell tweaks</td>
+</tr>
+<tr class="odd">
+<td align="left">starter-kit-js</td>
+<td align="left">20120316</td>
+<td align="left">Saner defaults and goodies for Javascript</td>
+</tr>
+<tr class="even">
+<td align="left">starter-kit-lisp</td>
+<td align="left">20120316</td>
+<td align="left">Saner defaults and goodies for lisp languages</td>
+</tr>
+<tr class="odd">
+<td align="left">starter-kit-perl</td>
+<td align="left">20120316</td>
+<td align="left">Some helpful Perl code</td>
+</tr>
+<tr class="even">
+<td align="left">starter-kit-ruby</td>
+<td align="left">20120316</td>
+<td align="left">Saner defaults and goodies for Ruby</td>
+</tr>
+<tr class="odd">
+<td align="left">textile-mode</td>
+<td align="left">20100416</td>
+<td align="left">Textile markup editing major mode</td>
+</tr>
+<tr class="even">
+<td align="left">todochiku</td>
+<td align="left">20120202</td>
+<td align="left">A mode for interfacing with Growl Snarl and the like</td>
+</tr>
+<tr class="odd">
+<td align="left">twittering-mode</td>
+<td align="left">20120402</td>
+<td align="left">Major mode for Twitter</td>
+</tr>
+<tr class="even">
+<td align="left">undo-tree</td>
+<td align="left">20120105</td>
+<td align="left">Treat undo history as a tree</td>
+</tr>
+<tr class="odd">
+<td align="left">vimgolf</td>
+<td align="left">20120228</td>
+<td align="left">No description available</td>
+</tr>
+<tr class="even">
+<td align="left">volatile-highlights</td>
+<td align="left">20120215</td>
+<td align="left">Minor mode for visual feedback on some operations</td>
+</tr>
+<tr class="odd">
+<td align="left">wrap-region</td>
+<td align="left">20120403</td>
+<td align="left">Wrap text with punctation or tag</td>
+</tr>
+<tr class="even">
+<td align="left">yaml-mode</td>
+<td align="left">20120228</td>
+<td align="left">Major mode for editing YAML files</td>
+</tr>
+<tr class="odd">
+<td align="left">yari</td>
+<td align="left">20110417</td>
+<td align="left">Yet Another RI interface for Emacs</td>
+</tr>
+<tr class="even">
+<td align="left">yasnippet</td>
+<td align="left">20120326</td>
+<td align="left">Yet another snippet extension for Emacs</td>
+</tr>
+<tr class="odd">
+<td align="left">zenburn-theme</td>
+<td align="left">20120406</td>
+<td align="left">A low contrast color theme for Emacs</td>
+</tr>
+<tr class="even">
+<td align="left">zlc</td>
+<td align="left">20110826</td>
+<td align="left">Provides zsh like completion for minibuffer</td>
+</tr>
+</tbody>
+</table>
+<h2 id="installing">Installing</h2>
+<p>To add the repository put this before the call to <code>package-initialize</code> in your <code>init.el</code> file.</p>
+<!-- <script src="https://gist.github.com/1679158.js"> </script> -->
+
+<pre><code>(add-to-list &#39;package-archives
+             &#39;(&quot;melpa&quot; . &quot;http://melpa.milkbox.net/packages/&quot;) t)</code></pre>
+<p>Please read about <a href="#known-issues">known issues</a> below before attempting to install multiple packages at once.</p>
+<h3 id="customizations">Customizations</h3>
+<p>There is currently no way in <code>package.el</code> to exclude or include versions. So to remedy this there is a <code>melpa.el</code> package–available in MELPA–that will allow you to enable only certain packages or exclude certain packages. You can install the package manually by pasting this into yoru <code>*scratch*</code> buffer and evaluating it.</p>
+<pre><code>(progn
+  (switch-to-buffer
+   (url-retrieve-synchronously
+    &quot;https://raw.github.com/milkypostman/melpa/master/melpa.el&quot;))
+  (package-install-from-buffer  (package-buffer-info) &#39;single))</code></pre>
+<p>You can then customize two variables:</p>
+<dl>
+<dt><code>package-archive-enable-alist</code></dt>
+<dd><p>Optional Alist of enabled packages used by <code>package-filter'. The format is (ARCHIVE . PACKAGE ...), where ARCHIVE is a string matching an archive name in</code>package-archives’, PACKAGE is a symbol of a package in ARCHIVE to enable.</p>
+<p>If no ARCHIVE exists in the alist, all packages are enabled.</p>
+</dd>
+<dt><code>package-archive-exclude-alist</code></dt>
+<dd><p>Alist of packages excluded by <code>package-filter'. The format is (ARCHIVE . PACKAGE ...), where ARCHIVE is a string matching an archive name in</code>package-archives’, PACKAGE is a symbol of a package in that archive to exclude.</p>
+<p>Any specified package is excluded regardless of the value of `package-archive-enable-alist’</p>
+</dd>
+</dl>
+<h2 id="known-issues">Known Issues</h2>
+<p>Due to the way the HTTP routing works on my provider, the HTTP/1.1 connection will time out for long package installs–where the package is large and takes a while to compile–like <em>magit</em> or <em>evil</em>. If you run into problems with complaints about the response from the web server consider adding</p>
+<!-- <script src="https://gist.github.com/1679208.js"> </script> -->
+
+<pre><code>(setq url-http-attempt-keepalives nil)</code></pre>
+<p>This makes things a tad more slow but means that the install completes correctly. Otherwise the connection times out and the install goes haywire.</p>
+<h3 id="fixes-for-package.el">Fixes for <code>package.el</code></h3>
+<p><strong>Note:</strong> <em>These fixes are included in the <code>melpa.el</code> package.</em></p>
+<p>There are a number of small bugs in Emacs24’s <code>package.el</code>. First, when installing dependencies, the packages were not getting initialized. Second, the order for dependencies was coming out backwards for what I needed. Both problems are easily patched by some <em>advice</em>.</p>
+<!-- <script src="https://gist.github.com/1679232.js"> </script> -->
+
+<pre><code>(defadvice package-compute-transaction
+  (before
+   package-compute-transaction-reverse (package-list requirements)
+   activate compile)
+  &quot;reverse the requirements&quot;
+  (setq requirements (reverse requirements))
+  (print requirements))</code></pre>
+<p>If you are not using Emacs24 from HEAD, you may also need this to initialize packages after they are downlaoded and installed.</p>
+<pre><code>(defadvice package-download-tar
+  (after package-download-tar-initialize activate compile)
+  &quot;initialize the package after compilation&quot;
+  (package-initialize))
+
+(defadvice package-download-single
+  (after package-download-single-initialize activate compile)
+  &quot;initialize the package after compilation&quot;
+  (package-initialize))</code></pre>
+<h2 id="updating-packages">Updating Packages</h2>
+<p><code>package.el</code> now includes a mechanism to upgrade packages. After running <code>package-list-pacages</code>, type <em>u</em> (mark Upgradable packages) and then <em>x</em> (eXecute the installs and deletions). When it’s done installing all the packages it will ask if you want to delete the obsolete packages and so you can hit <em>y</em> (Yes).</p>
+<p>If you run into a problem installing or upgrading, you may need to go into your <code>~/.emacs.d/elpa/</code> directory and delete packages that are installed multiple times. This can happen when the install times out (see <a href="#known-issues">Known Issues</a>).</p>
+<h2 id="development">Development</h2>
+<p><a href="https://github.com/milkypostman/melpa">https://github.com/milkypostman/melpa</a></p>
+<p>Contributions are welcome. Currently, the builder only supports packages using git, subversion, mercurial, and darcs. This covers most of the packages that I am interested in.</p>
+</div>
+</body>
+</html>
